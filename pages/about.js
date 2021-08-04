@@ -25,7 +25,7 @@ const about = () => {
                 <Image height='125' width='125' src='/profile.png' className={styles.aboutImage} />
                 <h1 className={styles.heading}>About Me</h1>
                 <p className={styles.aboutText}>Hi! I'm John Duck a Front End Developer from Austin Texas. I was introduced to web development in 2018 when I attended the UT Austin Coding Bootcamp, and have been hooked ever since! I have around 3 years experience building Web Applications.  </p>
-                <a className={styles.downloadButton} href='/../public/JonathanDuckPortfolio.pdf' download='/JonathanDuckPortfolio.pdf'>Download Resume</a>
+                <a className={styles.downloadButton} href='/../public/JonathanDuckResume.pdf' download='/JonathanDuckResume.pdf'>Download Resume</a>
             </div>
             <div className={styles.aboutGrid}>
                 <div className={styles.gridColumn}>
