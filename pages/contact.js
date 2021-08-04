@@ -1,4 +1,5 @@
 import styles from '../styles/Contact.module.css'
+import Image from 'next/image'
 
 
 const contact = () => {
@@ -12,19 +13,19 @@ const contact = () => {
                 <div className={styles.sidebar}>
                     <ul className={styles.contactList}>
                         <a href="https://www.linkedin.com/in/duck126/"><li className={styles.contactItem}>
-                            <div className={styles.iconwrap}><img className={styles.contactIcon} height='150' width='150' src='/linked-in.png'></img></div>
+                            <div className={styles.iconwrap}><Image className={styles.contactIcon} height='150' width='150' src='/linked-in.png'></Image></div>
                             <p className={styles.contactItemText}>LinkedIn</p>
                         </li></a>
                         <a href="https://github.com/Duck126"><li className={styles.contactItem}>
-                            <div className={styles.iconwrap}><img className={styles.contactIcon} height='150' width='150' src='/github-icon.png'></img></div>
+                            <div className={styles.iconwrap}><Image className={styles.contactIcon} height='150' width='150' src='/github-icon.png'></Image></div>
                             <p className={styles.contactItemText}>Github</p>
                         </li></a>
                         <a href = "mailto: jduck1133@gmail.com"><li className={styles.contactItem}>
-                            <div className={styles.iconwrap}><img className={styles.contactIcon} height='150' width='150' src='/email-icon.png'></img></div>
+                            <div className={styles.iconwrap}><Image className={styles.contactIcon} height='150' width='150' src='/email-icon.png'></Image></div>
                             <p className={styles.contactItemText}>Email</p>
                         </li></a>
                         <a href="https://twitter.com/DevelopDuck"><li className={styles.contactItem}>
-                            <div className={styles.iconwrap}><img className={styles.contactIcon} height='150' width='150' src='/twitter-icon.png'></img></div>
+                            <div className={styles.iconwrap}><Image className={styles.contactIcon} height='150' width='150' src='/twitter-icon.png'></Image></div>
                             <p className={styles.contactItemText}>Twitter</p>
                         </li></a>
                     </ul>

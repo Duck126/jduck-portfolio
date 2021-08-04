@@ -1,4 +1,5 @@
 import styles from '../styles/About.module.css'
+import Image from 'next/image'
 import { useState } from 'react';
 import {BiArrowToBottom, BiArrowToTop} from 'react-icons/bi';
 
@@ -21,7 +22,7 @@ const about = () => {
     return (
         <>
             <div className={styles.imagecontainer}>
-                <img height='125' width='125' src='/profile.png' className={styles.aboutImage} />
+                <Image height='125' width='125' src='/profile.png' className={styles.aboutImage} />
                 <h1 className={styles.heading}>About Me</h1>
                 <p className={styles.aboutText}>Hi! I'm John Duck a Front End Developer from Austin Texas. I was introduced to web development in 2018 when I attended the UT Austin Coding Bootcamp, and have been hooked ever since! I have around 3 years experience building Web Applications.  </p>
                 <a className={styles.downloadButton} href='/../public/JonathanDuckPortfolio.pdf' download='/JonathanDuckPortfolio.pdf'>Download Resume</a>
