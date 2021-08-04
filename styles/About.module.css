@@ -1,0 +1,149 @@
+.aboutImage {
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.aboutText {
+    flex-basis: 70%;
+    margin-left: 15%;
+}
+
+.imagecontainer {
+    width: 60%;
+    height: 100%;
+    margin: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    border-radius: 10px;
+    border: solid 3px whitesmoke;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    color: whitesmoke;
+}
+
+.downloadButton {
+    flex-basis: 70%;
+    height: fit-content;
+    display: flex;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #444;
+    color:whitesmoke;
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    justify-self: right;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 15%;
+    padding: 10px;
+    justify-content: center;
+    font-size: .75em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.downloadButton:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-color: #444;
+}
+
+.heading {
+    margin: 2.5%;
+    color: whitesmoke;
+    display: flex;
+    font-size: 1.5rem;
+    flex-basis: 40%;
+}
+
+
+.aboutlistitem {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.aboutlist {
+    list-style: square;
+    max-height: 0;
+    transition: max-height 0.25s ease-in-out;
+    overflow: hidden;
+    margin: 0;
+}
+
+.aboutlistActive {
+    list-style: square;
+    height: fit-content;
+    transform: scaleY(1);
+    max-height: 1000px;
+    transition: max-height 0.25s ease-in-out;
+    overflow: hidden;
+}
+
+.subList {
+    margin: 10px;
+    line-height: 1.5rem;
+}
+
+
+.gridColumn {
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+    background-color: #000000;
+    border-bottom: solid 3px whitesmoke;
+    border-radius: 15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: flex-start;
+    color:whitesmoke;
+    transition: 1000ms;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+
+
+.columnHeading {
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1%;
+    height: 50px;
+    flex-basis: 100%;
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.icon {
+    align-self: center;
+    justify-self: flex-end;
+    flex-basis: 10%;
+}
+
+.columnHeading:hover {
+    background-color: whitesmoke;
+    color: black;
+    border-color: black;
+}
+
+.aboutGrid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.aboutGrid:last-child {
+    margin-bottom: 75px;
+}
+
+.aboutGrid > * {
+    flex: 1 1 20rem;
+}

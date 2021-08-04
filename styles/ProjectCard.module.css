@@ -1,0 +1,118 @@
+.grid {
+  color: whitesmoke;
+  display: inline-flex;
+  margin-top: 1rem;
+  align-self: center;
+  margin-bottom: 3%;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: flex-start;
+  align-content: flex-start;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-top: 3px solid whitesmoke;
+  border-bottom: 3px solid whitesmoke;
+  border-radius: 10px;
+  background-color: #000000;
+  padding: 5px;
+  width: 80%;
+}
+
+.grid:last-child {
+  margin-bottom: 50px;
+}
+
+.projectPic {
+  flex-basis: 100%;
+  min-width: auto;
+  min-height: auto;
+  border-radius: 10px;
+  background: whitesmoke;
+}
+
+.projectImageLeft {
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.imageLink {
+  flex-basis: 75%;
+  margin: 10px;
+  background-color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.linkText {
+  line-height: 1.25;
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  align-self: center;
+  color: whitesmoke;
+}
+
+.linkText:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-color: #444;
+  -webkit-transition: transform 250ms ease-in-out;
+  transform:scale(1.1);
+}
+
+.linkListL {
+  list-style: none;
+  padding: 0;
+  margin: 5px;
+  height: auto;
+  width: auto;
+}
+
+.linkListItem {
+  display: flex;
+  height: 33%;
+  width: 100%;
+  margin: 5px;
+  justify-content: flex-start;
+  align-content: center;
+  padding: 5px;
+  border: solid 1px whitesmoke;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+.cardRight {
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: left;
+  text-decoration: none;
+  flex-basis: 60%;
+}
+
+.cardRight > * {
+  color: whitesmoke;
+}
+
+.toolList {
+  list-style: none;
+  display: flex;
+  justify-self: flex-start;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.toolList > * {
+  margin: 5px;
+}
+
+.projectDescription {
+  word-break: break-word;
+}

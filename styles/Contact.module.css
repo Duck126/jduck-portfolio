@@ -1,0 +1,98 @@
+.grid {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.sidebar {
+    display: flex;
+    flex-basis: 65%;
+    justify-self: start;
+    margin-bottom: 75px;
+}
+
+.headingcontainer {
+        line-height: 1.15;
+        display: flex;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        align-self: flex-start;
+        margin: 2.5%;
+        margin-bottom: .5%;
+        width: 60%;
+        color: whitesmoke;
+        background-color: #000000;
+        padding: 15px;
+        border-radius: 15px;
+        border-top: solid 3px whitesmoke;
+        border-bottom: solid 3px whitesmoke;
+}
+
+.heading {
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+}
+
+.headerText {
+    margin: 10px;
+}
+
+.contactList {
+    margin: 1rem;
+    flex-wrap:wrap;
+    list-style: none;
+    height: fit-content;
+    background-color: #000000;
+    flex: 1 1 100%;   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    border-radius: 15px;
+    border-top: solid 3px whitesmoke;
+    border-bottom: solid 3px whitesmoke;
+}
+
+.contactItem {
+    height: 25%;
+    flex: 1 1 100%;
+    font-weight: bolder;
+    margin: 2.5%;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    transition: 1000ms;
+}
+
+.iconwrap:hover {
+    box-shadow: 5px 5px 5px 0px whitesmoke;
+}
+
+.contactItemText {
+    flex: 1 1 100%;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.contactIcon {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 15px;
+    border: solid 2px whitesmoke;
+    transition: 500ms;
+}
+
+.iconwrap {
+    padding:0;
+    border: solid 2px whitesmoke;
+    display: flex;
+    border-radius: 15px;
+}

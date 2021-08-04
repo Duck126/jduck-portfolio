@@ -1,0 +1,31 @@
+.containerOne {
+  min-height: 100vh;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 1;
+  background: rgb(68, 68, 68);
+  background: linear-gradient(
+    126deg,
+    rgba(68, 68, 68, 1) 0%,
+    rgba(169, 169, 169, 1) 25%,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(169, 169, 169, 1) 75%,
+    rgba(68, 68, 68, 1) 100%
+  );
+}
+
+.containerTwo {
+  min-height: 50vh;
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: none;
+  z-index: 5;
+}
